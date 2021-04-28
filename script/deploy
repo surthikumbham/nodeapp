@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh ec2-user@ip-172-31-57-115 <<EOF
+ssh ec2-user@ip-172-31-80-217 <<EOF
     cd ~/nodeapp
     git pull origin master
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
